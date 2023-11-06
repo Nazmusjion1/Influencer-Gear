@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+/* Header section style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-title {
+    padding-top: 80px;
+    margin-left: 120px;
+}
+
+span {
+    padding-top: 90px;
+    margin-right: 120px;
+}
+
+span a {
+    text-decoration: none;
+    color: #3A3A3A;
+    padding-left: 30px;
+
+}
+span a:hover{
+    color: #E02C6D;
+}
+
+/* Camera area start */
+.section-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 145px;
+    padding-left: 120px;
+}
+.section-title{
+
+font-size: 52px;
+font-weight: 700;
+width: 582px;
+height: 133px;
+
+}
+.section-title:hover{
+color: #E02C6D;
+transition: 1s;
+}
+.section-description{
+    font-size: 16px;
+    font-weight: 600;
+    width: 505px;
+height: 60.9px;
+}
+.btn-1{
+font-size: 16px;
+font-weight: 700px;
+background-color: #E02C6D;
+color: white;
+border-radius: 41px;
+border: none;
+width: 190px;
+height: 44px;
+}
+
+img{
+    padding-right: 150px;
+
+    
+}
+/* ----------Camera area end -----*/
+
+/* logos section style  */
+.logos{
+    padding-top:180px;
+
+    
+}
+.logo{
+    display: flex;
+    padding-left: 165px;
+    
+}
+
+/* logos section end */
+
+/* Camera collection style start */
+
+    
+.collection-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top:130px ;
+}
+.camera-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 50px;
+    gap: 20px;
+    width: 329px;
+    height: 476px;
+    padding-left: 200px;
+    
+    
+}
+
+
+.camera-description{
+    width: 196px;
+
+
+
+}
+img{
+   
+}
+
+.camera-details{
+
+box-shadow: 0px 0px 40px 0px #00000026;
+padding-left: 50px;
+
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+
